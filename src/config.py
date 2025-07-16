@@ -16,7 +16,7 @@ class Config:
     DEFAULT_BEST_OF = 1
     DEFAULT_TEMPERATURE = 0.0
     
-    SUPPORTED_AUDIO_FORMATS = [".mp3", ".wav", ".m4a", ".flac"]
+    SUPPORTED_AUDIO_FORMATS = [".mp3", ".wav", ".m4a", ".flac", ".opus"]
     
     @classmethod
     def ensure_directories(cls):
